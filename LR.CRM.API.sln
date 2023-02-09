@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scr", "scr", "{0D127728-A3A9-4727-AA36-51507EA84749}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LR.CRM.API.Identidade", "src\servicesAPI\Identidade\LR.CRM.API.Identidade\LR.CRM.API.Identidade.csproj", "{4AE35075-B0E8-4D3F-A628-A2E595C866E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identidade", "Identidade", "{7498542C-21FA-44AC-A2BA-87AA3D96AE40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dados", "Dados", "{FE9E7BC7-B875-464B-95FC-E1BA063997E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LR.CRM.API.Dados", "src\servicesAPI\Dados\LR.CRM.API.Dados\LR.CRM.API.Dados.csproj", "{1E2F71C0-DE6C-4A7A-8C1E-A1B0489D3F8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AE35075-B0E8-4D3F-A628-A2E595C866E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE35075-B0E8-4D3F-A628-A2E595C866E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE35075-B0E8-4D3F-A628-A2E595C866E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE35075-B0E8-4D3F-A628-A2E595C866E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2F71C0-DE6C-4A7A-8C1E-A1B0489D3F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2F71C0-DE6C-4A7A-8C1E-A1B0489D3F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2F71C0-DE6C-4A7A-8C1E-A1B0489D3F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2F71C0-DE6C-4A7A-8C1E-A1B0489D3F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4AE35075-B0E8-4D3F-A628-A2E595C866E8} = {7498542C-21FA-44AC-A2BA-87AA3D96AE40}
+		{7498542C-21FA-44AC-A2BA-87AA3D96AE40} = {0D127728-A3A9-4727-AA36-51507EA84749}
+		{FE9E7BC7-B875-464B-95FC-E1BA063997E2} = {0D127728-A3A9-4727-AA36-51507EA84749}
+		{1E2F71C0-DE6C-4A7A-8C1E-A1B0489D3F8F} = {FE9E7BC7-B875-464B-95FC-E1BA063997E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C402839-4973-40D8-B16D-BFC83469B2D8}
+	EndGlobalSection
+EndGlobal
